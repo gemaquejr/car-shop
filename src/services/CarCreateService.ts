@@ -28,4 +28,14 @@ export default class CreateCarService implements IModel<ICar> {
     if (!results) throw new Error(ErrorTypes.EntityNotFound);
     return results;
   }
+
+  public async update(_id: string, obj: ICar): Promise<ICar | null> {
+    const parsed = CarZodSchema.safeParse(obj);
+    if (!parsed.success) {
+      throw parsed.error;
+    }
+    await this.readOne(_id);
+    const results = await this._car.update(_id, obj);
+    return results;
+  }
 }
