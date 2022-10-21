@@ -38,4 +38,10 @@ export default class CreateCarService implements IModel<ICar> {
     const results = await this._car.update(_id, obj);
     return results;
   }
+
+  public async delete(_id: string): Promise<ICar> {
+    const results = await this._car.delete(_id);
+    if (!results) throw new Error(ErrorTypes.EntityNotFound);
+    return results;
+  }
 }
