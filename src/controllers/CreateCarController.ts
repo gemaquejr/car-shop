@@ -20,4 +20,12 @@ export default class CreateCarController {
     const results = await this._service.read();
     return res.status(200).json(results);
   }
+
+  public async readOne(
+    req: Request, 
+    res: Response<ICar>,
+  ) {
+    const results = await this._service.readOne(req.params.id) as ICar;
+    res.status(200).json(results);
+  }
 }

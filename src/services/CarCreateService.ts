@@ -22,4 +22,10 @@ export default class CreateCarService implements IModel<ICar> {
     if (!results) throw new Error(ErrorTypes.EntityNotFound);
     return results;
   }
+
+  public async readOne(_id: string): Promise<ICar> {
+    const results = await this._car.readOne(_id);
+    if (!results) throw new Error(ErrorTypes.EntityNotFound);
+    return results;
+  }
 }
