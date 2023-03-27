@@ -12,6 +12,8 @@ O projeto foi para praticar a construção de API's RESTful em CRUD, utilizando 
 
 - ⚡ MongoDB é um software de banco de dados orientado a documentos livre, de código aberto e multiplataforma, escrito na linguagem C++.
 
+- ⚡ Mongoose é uma biblioteca de programação orientada a objetos JavaScript que cria uma conexão entre o MongoDB e o ambiente de tempo de execução           JavaScript Node.js.
+
 - ⚡ Mocha é um Framework de teste JavaScript para programas Node.js.
 
 - ⚡ Chai é uma biblioteca de afirmação BDD/TDD para Node e para o navegador, que pode ser equiparada com qualquer framework de testes de JavaScript.
@@ -27,6 +29,8 @@ O projeto foi para praticar a construção de API's RESTful em CRUD, utilizando 
 - [Docker](https://www.docker.com/): Software de código aberto usado para implantar aplicativos dentro de containers virtuais.
 
 - [MongoDB](https://www.mongodb.com/): É uma nova ideia de banco de dados trazendo conceitos de Banco de Dados Orientado a Documentos.
+
+- [Mongoose](https://mongoosejs.com/): É uma biblioteca de Modelagem de Dados de Objeto (ou ODM, do inglês: Object Data Modeling) para MongoDB e Node.js.
 
 - [Mocha](https://mochajs.org/): Mocha é um framework Javascript que roda em aplicações Node.js e no browser para realizar testes assíncronos de uma       maneira simples e fácil.
 
