@@ -22,6 +22,8 @@ O projeto foi para praticar a construção de API's RESTful em CRUD, utilizando 
 
 - ⚡ Sinon é uma biblioteca que fornece diversas funcionalidades (como mocks, spies e stubs) que facilitam os desenvolvimentos de testes no JavaScript.
 
+- ⚡ Jest é uma estrutura de teste de JavaScript construída sobre o Jasmine e mantida pela Meta.
+
 ## ✋🏻 Pré-requisitos
 
 - [git](https://git-scm.com/downloads): Ferramenta para gerenciar o código-fonte
@@ -41,6 +43,8 @@ O projeto foi para praticar a construção de API's RESTful em CRUD, utilizando 
 - [Chai](https://www.chaijs.com/): Chai é uma biblioteca de afirmação BDD/TDD para Node e para o navegador, que pode ser equiparada com qualquer           framework de testes de JavaScript.
 
 - [Sinon](https://sinonjs.org/): Sinon é uma biblioteca que fornece diversas funcionalidades (como mocks, spies e stubs) que facilitam os                   desenvolvimentos de testes no JavaScript.
+
+- [Jest](https://jestjs.io/pt-BR/): Jest é um framework de testes em JavaScript com um foco na simplicidade.
 
 ## :hammer_and_wrench: Antes de iniciar o projeto.
 
