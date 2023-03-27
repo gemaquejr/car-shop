@@ -10,6 +10,8 @@ O projeto foi para praticar a construção de API's RESTful em CRUD, utilizando 
 
 - ⚡ Docker é uma plataforma open source que facilita a criação e administração de ambientes isolados dentro de um container.
 
+- ⚡ Node.js é um ambiente de execução JavaScript que permite executar aplicações desenvolvidas com a linguagem de forma autônoma, sem depender de um         navegador.
+
 - ⚡ MongoDB é um software de banco de dados orientado a documentos livre, de código aberto e multiplataforma, escrito na linguagem C++.
 
 - ⚡ Mongoose é uma biblioteca de programação orientada a objetos JavaScript que cria uma conexão entre o MongoDB e o ambiente de tempo de execução           JavaScript Node.js.
@@ -27,6 +29,8 @@ O projeto foi para praticar a construção de API's RESTful em CRUD, utilizando 
 - [Visual Studio Code](https://code.visualstudio.com/): Editor de Código Fonte
 
 - [Docker](https://www.docker.com/): Software de código aberto usado para implantar aplicativos dentro de containers virtuais.
+
+- [Node.js](https://nodejs.org/en): Software de código aberto, multiplataforma, baseado no interpretador V8 do Google e que permite a execução de códigos   JavaScript fora de um navegador web.
 
 - [MongoDB](https://www.mongodb.com/): É uma nova ideia de banco de dados trazendo conceitos de Banco de Dados Orientado a Documentos.
 
